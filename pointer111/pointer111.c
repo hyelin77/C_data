@@ -1,4 +1,7 @@
 #include <stdio.h>
+void call_value(int icopy);
+void call_refer(int* ip);
+
 int main(void)
 {
 	int i = 777;
